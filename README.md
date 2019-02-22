@@ -1,17 +1,11 @@
 WebRTC Example
 ==============
 
-#### shane tully (shanetully.com)
+A WecRTC webcam loop-back server example based on https://github.com/feross/simple-peer and https://github.com/shanet/WebRTC-Example
 
-An 'as simple as it gets' WebRTC example.
+Usage
 
-See [https://shanetully.com/2014/09/a-dead-simple-webrtc-example/](https://shanetully.com/2014/09/a-dead-simple-webrtc-example/) for a detailed walkthrough of the code.
-
-Note: This repo is kept updated. The general ideas are there, but the above blog post may be somewhat out of date with the code in this repo.
-
-## Usage
-
-The signaling server uses Node.js and `ws` and can be started as such:
+Simple-peer is used on the client and server. The signaling server uses Node.js and `ws` and can be started as such:
 
 ```
 $ npm install
@@ -26,10 +20,6 @@ With the server running, open a recent version of Firefox, Chrome, or Safari and
 ## TLS
 
 Recent versions of Chrome require secure websockets for WebRTC. Thus, this example utilizes HTTPS. Included is a self-signed certificate that must be accepted in the browser for the example to work.
-
-## Problems?
-
-WebRTC is a rapidly evolving beast. Being an example that I don't check often, I rely on users for reports if something breaks. Issues and pull requests are greatly appreciated.
 
 ## License
 
