@@ -3,7 +3,7 @@ WebRTC Example
 
 A WecRTC webcam loop-back server example based on https://github.com/feross/simple-peer and https://github.com/shanet/WebRTC-Example
 
-Usage
+##Usage
 
 Simple-peer is used on the client and server. The signaling server uses Node.js and `ws` and can be started as such:
 
